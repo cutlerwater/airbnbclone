@@ -4,8 +4,8 @@ function Footer() {
         <div className="space-y-4 text-xs text-gray-800">
           <h5 className="font-bold">ABOUT</h5>
           <p>How Airbnb works</p>
-          <p>Newsroom</p>
-          <p>Investors</p>
+          <p>NextJS</p>
+          <p>ReactJS</p>
           <p>Airbnb Plus</p>
           <p>Airbnb Luxe</p>
         </div>
@@ -13,19 +13,19 @@ function Footer() {
         <div className="space-y-4 text-xs text-gray-800">
           <h5 className="font-bold">COMMUNITY</h5>
           <p>Accessibility</p>
-          <p>This is not a real site</p>
-          <p>Its a pretty awesome clone</p>
-          <p>Referrals accepted</p>
+          <p>GitLab</p>
+          <p>Firebase/Firestore</p>
+          <p>MongoDB</p>
           <p>Cutlerwater</p>
         </div>
   
         <div className="space-y-4 text-xs text-gray-800">
           <h5 className="font-bold">HOST</h5>
           <p>Cutlerwater</p>
-          <p>Presents</p>
+          <p>Netlify</p>
           <p>Zero to Full Stack Hero</p>
-          <p>Hundreds of Students (not really)</p>
-          <p>Join Now</p>
+          <p>Instagram</p>
+          <p>Git Hub</p>
         </div>
   
         <div className="space-y-4 text-xs text-gray-800">
