@@ -1,7 +1,7 @@
 import { useRouter } from "next/dist/client/router"
-import Header from "../components/Header";
-import InfoCard from "../components/InfoCard";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import InfoCard from "../Components/InfoCard";
+import Footer from "../Components/Footer";
 import { format } from "date-fns";
 
 function Search({ searchResults }) {
