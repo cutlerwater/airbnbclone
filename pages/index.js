@@ -10,8 +10,8 @@ export default function Home({ exploreData, cardsData }) {
   return (
     <div>
       <Head>
-        <title>airbnb clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>My airbnb clone</title>
+        <link rel="icon" href="https://links.papareact.com/qd3" />
       </Head>
 
       <Header />
