@@ -1,36 +1,22 @@
-import Head from "next/head";
-import "tailwindcss/tailwind.css";
-import Router from "next/router";
+import 'tailwindcss/tailwind.css'
 import "../styles/global.css";
-
 import ProgressBar from "@badrap/bar-of-progress";
+import Router from 'next/router';
 
 const progress = new ProgressBar({
-  size: 4,
-  color: "#FE595E",
-  className: "z-50",
-  delay: 100,
-});
+  size:4,
+  color: "#FD5B61",
+  className:"z-50",
+  delay: 100
+})
 
 Router.events.on("routeChangeStart", progress.start);
-Router.events.on("routeChangeComplete", progress.finish);
-Router.events.on("routeChangeError", progress.finish);
+Router.events.on("routerChangeComplete", progress.finish);
+Router.events.on("routerChangeError", progress.finish);
 
-// https://tailwindcss.com/docs/guides/nextjs
-// npx create-next-app -e with-tailwindcss my-project
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link
-          href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
-          rel="stylesheet"
-        />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  );
+  return <Component {...pageProps} />
 }
 
 export default MyApp;
