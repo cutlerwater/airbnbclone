@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 import Footer from "../Components/Footer";
 
 // Client Side Render as we need Global Window Object
-const Map = dynamic(() => import("../components/Map"), {
+const Map = dynamic(() => import("../Components/Map"), {
   loading: () => "Loading...",
   ssr: false,
 });
