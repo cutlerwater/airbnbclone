@@ -29,8 +29,8 @@ function InfoCard({ img, location, title, description, star, price, total }) {
           </p>
 
           <div>
-            <p className="text-lg lg:text-2xl font-semibold pb-2">${price}</p>
-            <p className="text-right font-extralight">${total}</p>
+            <p className="text-lg lg:text-2xl font-semibold pb-2">{price}</p>
+            <p className="text-right font-extralight">{total}</p>
           </div>
         </div>
       </div>
