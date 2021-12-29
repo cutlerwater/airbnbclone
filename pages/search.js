@@ -8,7 +8,7 @@ import Map from '../Components/Map';
 
 function Search({searchResults}) {
     const router = useRouter();
-    const {location, startDate, endDate, noOfGuesets} = router.query;
+    const {location, startDate, endDate, noOfGuests} = router.query;
     const formattedStartDate = format(new Date(startDate), "dd MMMM yy");
     const formattedEndDate = format(new Date(endDate), "dd MMMM yy");
     const range = `${formattedStartDate} - ${formattedEndDate}`;
@@ -16,11 +16,11 @@ function Search({searchResults}) {
 
     return (
         <div className="h-screen">
-           <Header placeholder={`${location} | ${range} | ${noOfGuesets}`}/>
+           <Header placeholder={`${location} | ${range} | ${noOfGuests}`}/>
 
            <main className="flex">
                <section className="flex-grow pt-14 px-6">
-                   <p className="text-xs">300+ Stays - {range} - for {noOfGuesets}  Guests</p>
+                   <p className="text-xs">300+ Stays - {range} - for {noOfGuests}  Guests</p>
                    <h1 className="text-3xl font-semibold mt-2 mb-6">
                        Stays in {location}
                    </h1>
