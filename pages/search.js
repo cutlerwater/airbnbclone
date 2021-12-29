@@ -1,10 +1,10 @@
 import { format } from 'date-fns';
 import { useRouter } from 'next/dist/client/router'
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import InfoCard from '../components/InfoCard';
-import Map from '../components/Map';
+import Footer from '../Components/Footer'
+import Header from '../Components/Header'
+import InfoCard from '../Components/InfoCard';
+import Map from '../Components/Map';
 
 function Search({searchResults}) {
     const router = useRouter();
