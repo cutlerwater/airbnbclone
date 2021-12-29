@@ -1,9 +1,9 @@
 import { useRouter } from "next/dist/client/router";
-import Header from "../components/Header";
-import InfoCard from "../components/InfoCard";
+import Header from "../Components/Header";
+import InfoCard from "../Components/InfoCard";
 import { format } from "date-fns";
 import dynamic from "next/dynamic";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 // Client Side Render as we need Global Window Object
 const Map = dynamic(() => import("../components/Map"), {
